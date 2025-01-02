@@ -1,7 +1,7 @@
 module "sandbox_fraMshbmm94dxGRa" {
   source = "git::https://github.com/mcpeak/learn-terraform-aft-account-request//terraform/modules/aft-account-request"
   account_tags = {
-    env_type = "prod"
+    "Env Type" = "prod"
   }
   change_management_parameters = {
     change_requested_by = "Travis McPeak"
