@@ -15,5 +15,5 @@ module "newsandbox_fraMshbmm94dxGRa" {
     SSOUserFirstName          = "Travis"
     SSOUserLastName           = "McPeak"
   }
-  account_customizations_name = "all"
+  account_customizations_name = "sandbox"
 }
