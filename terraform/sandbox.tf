@@ -8,12 +8,12 @@ module "sandbox_fraMshbmm94dxGRa" {
     change_reason       = "I need a new account"
   }
   control_tower_parameters = {
-    AccountEmail              = "travis.mcpeak+new_account_test@gmail.com"
+    AccountEmail              = "travis.mcpeak+new-sandbox@gmail.com"
     AccountName               = "sandbox"
-    ManagedOrganizationalUnit = "ou-uspo-zgelpqbj"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "travis.mcpeak@gmail.com"
     SSOUserFirstName          = "Travis"
     SSOUserLastName           = "McPeak"
   }
-  account_customizations_name = "sandbox"
+  account_customizations_name = "all"
 }
