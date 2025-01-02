@@ -1,4 +1,4 @@
-module "sandbox_fraMshbmm94dxGRa" {
+module "newsandbox_fraMshbmm94dxGRa" {
   source = "git::https://github.com/mcpeak/learn-terraform-aft-account-request//terraform/modules/aft-account-request"
   account_tags = {
     env_type = "prod"
@@ -9,7 +9,7 @@ module "sandbox_fraMshbmm94dxGRa" {
   }
   control_tower_parameters = {
     AccountEmail              = "travis.mcpeak+sandbox@gmail.com"
-    AccountName               = "sandbox"
+    AccountName               = "newsandbox"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "travis.mcpeak@gmail.com"
     SSOUserFirstName          = "Travis"
