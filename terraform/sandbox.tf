@@ -15,4 +15,5 @@ module "sandbox_fraMshbmm94dxGRa" {
     SSOUserFirstName          = "Travis"
     SSOUserLastName           = "McPeak"
   }
+  account_customizations_name = "sandbox"
 }
